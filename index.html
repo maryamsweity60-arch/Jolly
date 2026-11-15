@@ -4,321 +4,174 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Jolly | كوبونات SHEIN</title>
+<title>Jolly | كوبونات شي إن</title>
 <style>
-:root {
-  --pink:#c81760;
-  --dark:#8d104c;
-  --light:#fff5f8;
-  --gold:#ffc75a;
-  --white:#fff;
-}
-* {box-sizing:border-box}
-body {
-  margin:0;
-  font-family:Arial,Tahoma,sans-serif;
-  background:var(--light);
-  color:#38202c;
-}
-header {
-  background:linear-gradient(135deg,#c81760,#8d104c);
-  color:white;
-  text-align:center;
-  padding:30px 15px;
-}
-.logo {font-size:38px;font-weight:900;letter-spacing:2px}
-header p {margin:8px 0 0}
-nav {
-  display:flex;
-  justify-content:center;
-  flex-wrap:wrap;
-  gap:10px;
-  padding:14px;
-  background:white;
-  position:sticky;
-  top:0;
-  z-index:5;
-  box-shadow:0 2px 10px #0000000d;
-}
-nav a {
-  text-decoration:none;
-  color:var(--dark);
-  font-weight:bold;
-  padding:9px 13px;
-  border-radius:20px;
-  background:#fff0f5;
-}
-.container {max-width:950px;margin:auto;padding:22px 15px}
-.hero {
-  text-align:center;
-  padding:25px 15px;
-  background:white;
-  border-radius:20px;
-  margin-bottom:25px;
-}
-h2 {color:var(--dark);text-align:center}
-.search {
-  width:100%;
-  padding:14px;
-  border:1px solid #efbfd1;
-  border-radius:12px;
-  font-size:16px;
-  margin:10px 0 20px;
-}
-.grid {
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-  gap:16px;
-}
-.card {
-  background:white;
-  padding:20px;
-  border-radius:18px;
-  text-align:center;
-  box-shadow:0 5px 18px #8d104c12;
-  border:1px solid #f7dce7;
-}
-.code {
-  font-size:23px;
-  font-weight:900;
-  color:var(--pink);
-  background:#fff0f5;
-  padding:13px;
-  border-radius:12px;
-  margin:13px 0;
-  letter-spacing:1px;
-  direction:ltr;
-}
-button,.main-link {
-  display:block;
-  width:100%;
-  border:0;
-  border-radius:12px;
-  padding:13px;
-  margin-top:10px;
-  font-size:15px;
-  font-weight:bold;
-  cursor:pointer;
-  text-decoration:none;
-}
-.copy {background:#fff0f5;color:var(--dark)}
-.activate {background:var(--pink);color:white}
-.activate:hover {background:var(--dark)}
-.browser-section {
-  margin-top:40px;
-  padding:22px;
-  background:#fff;
-  border-radius:20px;
-  border:2px solid #f5c8da;
-}
-.browser-card {
-  border:1px solid #f1cada;
-  border-radius:17px;
-  padding:20px;
-  background:#fffafd;
-  text-align:center;
-}
-.discount {
-  color:var(--pink);
-  font-size:25px;
-  font-weight:900;
-  margin:12px 0;
-}
-.note {font-size:13px;color:#806575;line-height:1.7}
-footer {
-  text-align:center;
-  padding:28px 15px;
-  color:#806575;
-  font-size:13px;
-}
-.hidden {display:none}
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;background:#fff7fa;color:#49343d}
+header{background:linear-gradient(135deg,#f8c9dc,#fce8f0);text-align:center;padding:30px 15px}
+header h1{font-size:42px;margin:0;color:#a83f70;letter-spacing:2px}
+header p{margin:10px 0 0}
+nav{display:flex;justify-content:center;gap:20px;flex-wrap:wrap;padding:14px;background:#fff}
+nav a{color:#a83f70;text-decoration:none;font-weight:bold}
+.container{max-width:950px;margin:auto;padding:20px 15px}
+h2{text-align:center;color:#a83f70;margin:25px 0 18px}
+.intro{text-align:center;line-height:1.8}
+.search{width:100%;padding:13px;border:1px solid #edbfd1;border-radius:12px;font-size:16px;margin:15px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:15px}
+.card{background:white;border:1px solid #f1d5e0;border-radius:16px;padding:19px;text-align:center;box-shadow:0 4px 14px #a83f7010}
+.card h3{color:#a83f70;margin-top:5px}
+.code{font-size:22px;font-weight:bold;letter-spacing:1px;color:#8e315d;background:#fff0f5;border:1px dashed #d98aaa;border-radius:10px;padding:12px;margin:13px 0}
+.card p{line-height:1.6;font-size:14px}
+.actions{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.action{display:inline-block;border:0;border-radius:10px;padding:11px 17px;background:#bd5483;color:white;cursor:pointer;font-weight:bold;text-decoration:none;font-size:14px}
+.action:hover{background:#963b65}
+.action.secondary{background:#80616f}
+.browser-section{margin-top:35px;padding:22px 15px;background:#fff0f5;border:2px solid #edc4d5;border-radius:18px}
+.browser-card{background:white;border-radius:14px;padding:18px;margin:14px 0;text-align:center;border:1px solid #efd2de}
+.browser-card h3{color:#a83f70}
+.browser-card p{line-height:1.7}
+.browser-card a{display:inline-block;text-decoration:none;background:#a83f70;color:white;padding:13px 22px;border-radius:10px;font-weight:bold;margin-top:8px}
+.note{font-size:13px;color:#80616f;text-align:center;line-height:1.7}
+footer{text-align:center;padding:25px;background:#f8dce7;margin-top:30px;font-size:13px;line-height:1.8}
 </style>
 </head>
 <body>
 
 <header>
-  <div class="logo">JOLLY ♡</div>
-  <p>عالمكِ لعروض وكوبونات SHEIN</p>
+<h1>Jolly</h1>
+<p>عالمكِ للتوفير والتسوق الذكي 🌸</p>
 </header>
 
 <nav>
-  <a href="#coupons">كوبوناتي</a>
-  <a href="#browser">روابط المتصفح</a>
-  <a href="#about">عن Jolly</a>
+<a href="#coupons">كوبونات التطبيق</a>
+<a href="#browser">روابط المتصفح</a>
+<a href="#about">عن Jolly</a>
 </nav>
 
 <main class="container">
+<p class="intro">أهلاً بكِ في Jolly 💗
+<br>اكتشفي كوبونات وعروض SHEIN ووفّري في مشترياتكِ.</p>
 
-  <section class="hero">
-    <h1>وفّري أكثر مع Jolly ♡</h1>
-    <p>اكتشفي أكواد الخصم والعروض الجديدة من SHEIN</p>
-  </section>
+<section id="coupons">
+<h2>🎀 كوبونات SHEIN</h2>
+<input class="search" id="search" type="text" placeholder="ابحثي عن كود الخصم...">
 
-  <section id="coupons">
-    <h2>♡ كوبونات تطبيق SHEIN</h2>
-    <input class="search" id="search" type="search"
-      placeholder="ابحثي عن كود الخصم..."
-      oninput="filterCoupons()">
+<div class="grid" id="couponGrid">
 
-    <div class="grid" id="couponGrid">
+<div class="card">
+<h3>كوبون SHEIN</h3>
+<p>انسخي الكود وجربيه حسب شروط العرض.</p>
+<div class="code">PMDWLZ3</div>
+<div class="actions">
+<button class="action" onclick="copyCode('PMDWLZ3')">نسخ الكود</button>
+<a class="action secondary" href="https://onelink.shein.com/36/5r3jyk8cswmo" target="_blank" rel="noopener">افتحي SHEIN</a>
+</div>
+</div>
 
-      <article class="card" data-code="PMDWLZ3">
-        <h3>كود خصم SHEIN</h3>
-        <div class="code">PMDWLZ3</div>
-        <button class="copy" onclick="copyCode('PMDWLZ3')">نسخ الكود</button>
-        <a class="main-link activate"
-          href="https://onelink.shein.com/36/5r3jyk8cswmo"
-          target="_blank" rel="noopener noreferrer">افتحي SHEIN</a>
-      </article>
+<div class="card">
+<h3>كوبون SHEIN</h3>
+<p>انسخي الكود وجربيه عند إتمام الطلب.</p>
+<div class="code">2CUSBW7</div>
+<div class="actions">
+<button class="action" onclick="copyCode('2CUSBW7')">نسخ الكود</button>
+<a class="action secondary" href="https://onelink.shein.com/5/5nux7b9q9r8h" target="_blank" rel="noopener">افتحي SHEIN</a>
+</div>
+</div>
 
-      <article class="card" data-code="42UUXMQ">
-        <h3>كود خصم SHEIN</h3>
-        <div class="code">42UUXMQ</div>
-        <button class="copy" onclick="copyCode('42UUXMQ')">نسخ الكود</button>
-        <a class="main-link activate"
-          href="https://onelink.shein.com/41/5uz402rv5151"
-          target="_blank" rel="noopener noreferrer">افتحي SHEIN</a>
-      </article>
+<div class="card">
+<h3>كوبون SHEIN</h3>
+<p>انسخي الكود وجربيه عند إتمام الطلب.</p>
+<div class="code">EFKKRY6</div>
+<div class="actions">
+<button class="action" onclick="copyCode('EFKKRY6')">نسخ الكود</button>
+<a class="action secondary" href="https://onelink.shein.com/46/5xw8wdgueujn" target="_blank" rel="noopener">افتحي SHEIN</a>
+</div>
+</div>
 
-      <article class="card" data-code="4UV7KD8">
-        <h3>كود خصم SHEIN</h3>
-        <div class="code">4UV7KD8</div>
-        <button class="copy" onclick="copyCode('4UV7KD8')">نسخ الكود</button>
-        <a class="main-link activate"
-          href="https://onelink.shein.com/36/5rfczf3mkg25"
-          target="_blank" rel="noopener noreferrer">افتحي SHEIN</a>
-      </article>
+<div class="card">
+<h3>كوبون SHEIN</h3>
+<p>انسخي الكود وجربيه عند إتمام الطلب.</p>
+<div class="code">Y9KS682</div>
+<div class="actions">
+<button class="action" onclick="copyCode('Y9KS682')">نسخ الكود</button>
+<a class="action secondary" href="https://onelink.shein.com/39/5tpdkig6d4yv" target="_blank" rel="noopener">افتحي SHEIN</a>
+</div>
+</div>
 
-      <article class="card" data-code="2CUSBW7">
-        <h3>كود خصم SHEIN</h3>
-        <div class="code">2CUSBW7</div>
-        <button class="copy" onclick="copyCode('2CUSBW7')">نسخ الكود</button>
-        <a class="main-link activate"
-          href="https://onelink.shein.com/5/5nux7b9q9r8h"
-          target="_blank" rel="noopener noreferrer">افتحي SHEIN</a>
-      </article>
+<div class="card">
+<h3>خصم 50% للمستخدمين الجدد</h3>
+<p>قسيمة خصم للمستخدمين الجدد فقط، وفق شروط SHEIN.</p>
+<div class="code">HW65474</div>
+<div class="actions">
+<button class="action" onclick="copyCode('HW65474')">نسخ الكود</button>
+<a class="action secondary" href="https://onelink.shein.com/57/655despoa16q" target="_blank" rel="noopener">افتحي SHEIN</a>
+</div>
+</div>
 
-      <article class="card" data-code="EFKKRY6">
-        <h3>كود خصم SHEIN</h3>
-        <div class="code">EFKKRY6</div>
-        <button class="copy" onclick="copyCode('EFKKRY6')">نسخ الكود</button>
-        <a class="main-link activate"
-          href="https://onelink.shein.com/46/5xw8wdgueujn"
-          target="_blank" rel="noopener noreferrer">افتحي SHEIN</a>
-      </article>
+</div>
+</section>
 
-      <article class="card" data-code="Y9KS682">
-        <h3>كود خصم SHEIN</h3>
-        <div class="code">Y9KS682</div>
-        <button class="copy" onclick="copyCode('Y9KS682')">نسخ الكود</button>
-        <a class="main-link activate"
-          href="https://onelink.shein.com/39/5tpdkig6d4yv"
-          target="_blank" rel="noopener noreferrer">افتحي SHEIN</a>
-      </article>
+<section id="browser" class="browser-section">
+<h2>🌐 روابط المتصفح المباشرة</h2>
+<p class="intro">اضغطي على الزر للانتقال مباشرة إلى عرض SHEIN عبر رابط الإحالة.</p>
 
-      <article class="card" data-code="HW65474">
-        <h3>خصم للمستخدمين الجدد فقط</h3>
-        <div class="code">HW65474</div>
-        <div class="discount">خصم 50%</div>
-        <button class="copy" onclick="copyCode('HW65474')">نسخ الكود</button>
-        <a class="main-link activate"
-          href="https://onelink.shein.com/57/655despoa16q"
-          target="_blank" rel="noopener noreferrer">افتحي SHEIN</a>
-      </article>
+<div class="browser-card">
+<h3>عرض SHEIN الأول</h3>
+<p>رمز الإحالة: <strong>695T84G</strong></p>
+<p>تخفيضات نهاية العام الكبرى – خصومات تصل إلى 85% حسب شروط العرض.</p>
+<a href="https://m.shein.com/il/ark/11776?goods_id=6683322380&amp;aff_id=695T84G&amp;ref=www&amp;rep=dir&amp;ret=m" target="_blank" rel="noopener">افتحي العرض على SHEIN</a>
+</div>
 
-    </div>
-  </section>
+<div class="browser-card">
+<h3>عرض SHEIN الثاني</h3>
+<p>رمز الإحالة: <strong>PMDWLZ3</strong></p>
+<a href="https://m.shein.com/il/ark/11776?goods_id=6358053465&amp;aff_id=PMDWLZ3&amp;ref=www&amp;rep=dir&amp;ret=m" target="_blank" rel="noopener">افتحي العرض على SHEIN</a>
+</div>
 
-  <section id="browser" class="browser-section">
-    <h2>♡ روابط المتصفح وتفعيل الخصم</h2>
-    <p style="text-align:center">
-      اختاري العرض واضغطي على زر التفعيل للانتقال مباشرة إلى SHEIN.
-    </p>
+<p class="note">تفتح الروابط موقع SHEIN مباشرة. تطبيق الخصم داخل السلة يخضع لشروط وتوفر العرض لدى SHEIN.</p>
+</section>
 
-    <div class="grid">
-
-      <article class="browser-card">
-        <h3>تخفيضات نهاية العام الكبرى</h3>
-        <div class="discount">خصم يصل إلى 85%</div>
-        <div class="code">695T84G</div>
-        <button class="activate"
-          onclick="activateOffer('695T84G','https://onelink.shein.com/59/67hoptflzzn4')">
-          فعّلي الخصم الآن
-        </button>
-        <p class="note">سيحاول الموقع نسخ الكود وفتح عرض SHEIN مباشرة.</p>
-      </article>
-
-      <article class="browser-card">
-        <h3>عرض SHEIN عبر المتصفح</h3>
-        <div class="code">PMDWLZ3</div>
-        <button class="activate"
-          onclick="activateOffer('PMDWLZ3','https://m.shein.com/il/ark/11776?goods_id=6358053465&aff_id=PMDWLZ3&ref=www&rep=dir&ret=m')">
-          فعّلي الخصم الآن
-        </button>
-        <p class="note">سيحاول الموقع نسخ الكود وفتح عرض SHEIN مباشرة.</p>
-      </article>
-
-    </div>
-  </section>
-
-  <section id="about" class="hero" style="margin-top:30px">
-    <h2>عن Jolly ♡</h2>
-    <p>Jolly يجمع لكِ أكواد وعروض SHEIN في مكان واحد لتسهيل التسوق والتوفير.</p>
-    <p class="note">قد تحتوي الروابط على روابط إحالة تسويقية، وقد نحصل على عمولة عند استيفاء شروط البرنامج.</p>
-  </section>
-
+<section id="about">
+<h2>💗 عن Jolly</h2>
+<p class="intro">Jolly يساعدكِ في الوصول إلى كوبونات وعروض SHEIN بسهولة.
+قد يحصل الموقع على عمولة من بعض روابط الإحالة عند إتمام عمليات شراء مؤهلة، دون تكلفة إضافية عليكِ.</p>
+</section>
 </main>
 
 <footer>
-  Jolly ♡ جميع الحقوق محفوظة
+Jolly © 2026
+<br>جميع الحقوق محفوظة
 </footer>
 
 <script>
-async function copyCode(code) {
-  try {
-    await navigator.clipboard.writeText(code);
-    alert('تم نسخ الكود: ' + code);
-  } catch (error) {
-    fallbackCopy(code);
-  }
+function copyCode(code){
+ if(navigator.clipboard && window.isSecureContext){
+  navigator.clipboard.writeText(code)
+  .then(()=>alert('تم نسخ الكود: '+code))
+  .catch(()=>fallbackCopy(code));
+ }else{
+  fallbackCopy(code);
+ }
 }
-
-function fallbackCopy(code) {
-  const field = document.createElement('textarea');
-  field.value = code;
-  document.body.appendChild(field);
-  field.select();
-  try {
-    document.execCommand('copy');
-    alert('تم نسخ الكود: ' + code);
-  } catch (error) {
-    alert('انسخي الكود يدوياً: ' + code);
-  }
-  field.remove();
+function fallbackCopy(code){
+ const field=document.createElement('textarea');
+ field.value=code;
+ document.body.appendChild(field);
+ field.select();
+ try{
+  document.execCommand('copy');
+  alert('تم نسخ الكود: '+code);
+ }catch(e){
+  alert('انسخي الكود يدوياً: '+code);
+ }
+ field.remove();
 }
-
-function activateOffer(code, url) {
-  // فتح الرابط فور الضغط لتقليل احتمال منع النافذة من المتصفح
-  const newTab = window.open(url, '_blank');
-
-  // محاولة نسخ الكود في الوقت نفسه
-  copyCode(code);
-
-  // إذا منع المتصفح فتح تبويب جديد، نفتح الرابط في الصفحة الحالية
-  if (!newTab) {
-    window.location.href = url;
-  }
-}
-
-function filterCoupons() {
-  const value = document.getElementById('search').value.toUpperCase();
-  document.querySelectorAll('#couponGrid .card').forEach(card => {
-    card.classList.toggle(
-      'hidden',
-      !card.dataset.code.includes(value)
-    );
-  });
-}
+document.getElementById('search').addEventListener('input',function(){
+ const value=this.value.trim().toLowerCase();
+ document.querySelectorAll('#couponGrid .card').forEach(card=>{
+  card.style.display=card.innerText.toLowerCase().includes(value)?'block':'none';
+ });
+});
 </script>
 
 </body>
