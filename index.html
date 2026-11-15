@@ -4,95 +4,127 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Jolly | كوبونات شي إن</title>
+<title>Jolly | عالم الخصومات</title>
 <style>
-* { box-sizing: border-box; }
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: #fff5f8;
-  color: #40182c;
-}
-header {
-  text-align: center;
-  padding: 30px 15px;
-}
-.logo {
-  color: #c81760;
-  font-family: Georgia, serif;
-  font-size: 65px;
-  font-weight: bold;
-}
-header p { color: #a32659; }
-.container { padding: 16px; max-width: 850px; margin: auto; }
-nav {
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
-  gap: 9px;
-}
-nav a {
-  background: white;
-  border: 2px solid #f4d1df;
-  border-radius: 17px;
-  padding: 17px 5px;
-  text-align: center;
-  text-decoration: none;
-  color: #49182e;
-  font-weight: bold;
-}
-h1 { text-align: center; font-size: 27px; }
-.intro { text-align: center; color: #926477; }
-.coupon {
-  margin-top: 25px;
-  background: linear-gradient(135deg,#c81760,#8d104c);
-  border-radius: 25px;
-  color: white;
-  text-align: center;
-  padding: 30px 15px;
-}
-.coupon h2 { font-size: 25px; }
-.price { font-size: 65px; font-weight: bold; }
-.action {
-  display: block;
-  background: #ffc75a;
-  color: #43182b;
-  padding: 20px;
-  margin-top: 25px;
-  border-radius: 18px;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 20px;
-}
-.note { text-align:center; color:#93677a; line-height:2; }
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;background:#fff9fc;color:#342431}
+header{background:#fff;padding:18px 6%;display:flex;justify-content:space-between;align-items:center;box-shadow:0 2px 12px #0000000b}
+.logo{font-size:30px;font-weight:bold;color:#e94f91}
+nav a{margin:0 9px;text-decoration:none;color:#57404d;font-size:14px}
+.hero{text-align:center;padding:65px 20px;background:linear-gradient(135deg,#ffe2ef,#fff0f6)}
+.hero h1{font-size:36px;color:#bd3675;margin:0 0 15px}
+.hero p{color:#76566a;line-height:1.8}
+.btn{display:inline-block;background:#e94f91;color:white;padding:13px 25px;border-radius:25px;text-decoration:none;border:0;cursor:pointer;font-weight:bold}
+.container{max-width:1050px;margin:35px auto;padding:0 18px}
+h2{text-align:center;color:#bd3675}
+.search{display:block;width:100%;padding:15px;border:1px solid #f2c5da;border-radius:12px;font-size:16px;margin:20px 0}
+.categories{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin:20px 0}
+.category{border:1px solid #edb5ce;background:white;color:#b83d78;padding:10px 17px;border-radius:22px;cursor:pointer}
+.category.active{background:#e94f91;color:white}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px}
+.card{background:white;border:1px solid #f5d9e6;border-radius:18px;padding:22px;text-align:center;box-shadow:0 5px 18px #e9a6c51c}
+.discount{font-size:31px;color:#e94f91;font-weight:bold}
+.card h3{margin:12px 0}
+.code{background:#fff2f8;border:1px dashed #e94f91;padding:12px;border-radius:9px;font-size:19px;font-weight:bold;letter-spacing:1px}
+.copy{width:100%;margin-top:12px;padding:12px;background:#e94f91;color:white;border:0;border-radius:10px;font-size:15px;cursor:pointer}
+.shop{display:block;margin-top:10px;color:#bd3675;text-decoration:none;font-weight:bold}
+.note{font-size:12px;color:#917b88;line-height:1.7}
+footer{text-align:center;padding:28px;background:#fff0f6;color:#805b70;margin-top:50px}
+@media(max-width:600px){.hero h1{font-size:29px}nav a{margin:0 4px;font-size:12px}}
 </style>
 </head>
 <body>
 <header>
-  <div class="logo">Jolly</div>
-  <p>تسوّقي بذكاء، ووفّري أكثر!</p>
-</header>
-<div class="container">
+<div class="logo">Jolly ♡</div>
 <nav>
-<a href="#offers">🎁 كوبوناتي</a>
-<a href="#orders">🛍️ طلباتي</a>
-<a href="#shein">SHEIN<br>تسوّقي الآن</a>
+<a href="#">الرئيسية</a>
+<a href="#offers">الكوبونات</a>
+<a href="#about">من نحن</a>
 </nav>
-<h1>💗 عروض وكوبونات SHEIN</h1>
-<p class="intro">اكتشفي العروض ووفّري على مشترياتك</p>
-<section class="coupon" id="offers">
-<h2>كوبونات Jolly</h2>
-<div class="price">خصومات</div>
-<p>عروض تتجدد باستمرار</p>
-<a class="action" href="#shein">اكتشفي العروض ⚡</a>
+</header>
+
+<section class="hero">
+<h1>تسوّقي بذكاء مع Jolly 💗</h1>
+<p>عالمك المفضل للتوفير والعروض وأكواد الخصم.<br>اكتشفي العروض ووفّري في كل تسوّق!</p>
+<a class="btn" href="#offers">اكتشفي العروض</a>
 </section>
-<section class="note" id="orders">
-<h2>متابعة الطلبات</h2>
-<p>تابعي طلباتك من خلال تطبيق SHEIN</p>
-</section>
-<section class="note" id="shein">
-<h2>تسوّقي من SHEIN</h2>
-<p>استخدمي رابط الشراكة الخاص بك عند توفره</p>
-</section>
+
+<main class="container" id="offers">
+<h2>🎀 أحدث كوبونات الخصم</h2>
+<input class="search" id="search" placeholder="ابحثي عن كوبون أو عرض...">
+
+<div class="categories">
+<button class="category active" data-cat="all">الكل</button>
+<button class="category" data-cat="shein">SHEIN</button>
+<button class="category" data-cat="fashion">الأزياء</button>
 </div>
+
+<div class="cards" id="cards">
+<div class="card" data-cat="shein">
+<div class="discount">خصم مميز</div>
+<h3>كوبون SHEIN</h3>
+<p>كود تجريبي - استبدليه بكود فعال</p>
+<div class="code">JOLLY10</div>
+<button class="copy" onclick="copyCode(this)">انسخي الكود</button>
+<a class="shop" href="https://www.shein.com/" target="_blank">تسوّقي الآن ←</a>
+<p class="note">هذا كود تجريبي للعرض فقط وليس كوبوناً مؤكداً.</p>
+</div>
+
+<div class="card" data-cat="fashion">
+<div class="discount">عروض الأزياء</div>
+<h3>تسوّقي أحدث الإطلالات</h3>
+<p>اكتشفي المنتجات والعروض الجديدة.</p>
+<a class="btn" href="https://www.shein.com/" target="_blank">تسوّقي الآن</a>
+<p class="note">يمكن إضافة كود خصم حقيقي هنا لاحقاً.</p>
+</div>
+
+<div class="card" data-cat="shein">
+<div class="discount">Jolly ♡</div>
+<h3>عروض SHEIN الجديدة</h3>
+<p>تابعي أحدث الخصومات والتخفيضات.</p>
+<a class="btn" href="https://www.shein.com/" target="_blank">اكتشفي العروض</a>
+</div>
+</div>
+</main>
+
+<section class="container" id="about">
+<h2>لماذا Jolly؟ 💕</h2>
+<p style="text-align:center;line-height:2">
+نساعدك على اكتشاف العروض وأكواد الخصم في مكان واحد،
+لتكون تجربة التسوق أسهل وأوفر.
+</p>
+</section>
+
+<footer>
+<strong>Jolly ♡</strong>
+<p>تسوّقي أكثر، ووفّري أكثر!</p>
+<p>© 2026 Jolly - جميع الحقوق محفوظة</p>
+</footer>
+
+<script>
+function copyCode(button){
+const code=button.parentElement.querySelector('.code').innerText;
+if(navigator.clipboard && window.isSecureContext){
+navigator.clipboard.writeText(code).then(()=>button.innerText='تم النسخ ✓').catch(()=>alert('انسخي الكود: '+code));
+}else{
+alert('انسخي الكود: '+code);
+}
+}
+document.getElementById('search').addEventListener('input',function(){
+const value=this.value.toLowerCase();
+document.querySelectorAll('.card').forEach(card=>{
+card.style.display=card.innerText.toLowerCase().includes(value)?'block':'none';
+});
+});
+document.querySelectorAll('.category').forEach(button=>{
+button.addEventListener('click',()=>{
+document.querySelectorAll('.category').forEach(b=>b.classList.remove('active'));
+button.classList.add('active');
+document.querySelectorAll('.card').forEach(card=>{
+card.style.display=button.dataset.cat==='all'||card.dataset.cat===button.dataset.cat?'block':'none';
+});
+});
+});
+</script>
 </body>
 </html>
